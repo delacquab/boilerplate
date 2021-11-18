@@ -13,7 +13,7 @@
     "generate": "yarn plop --plopfile generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public",
-    "postinstall": "husky install",
+    "postinstall": "husky install .husky",
     "prepare": "husky install .husky"
   },
   "lint-staged": {
